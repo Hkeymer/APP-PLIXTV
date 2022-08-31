@@ -1,0 +1,28 @@
+.Categorias{
+ display: flex;
+ flex-direction: row;
+ margin: 0;
+ gap: 10px;
+ justify-content: center;
+ padding:50px;
+ flex-wrap: wrap;
+}
+
+.Recientes{
+    color: #aaa;
+    flex-wrap: nowrap;
+    padding: 0 10px;
+    font-size: 16px;
+}
+.NavLink {
+    color: #aaa;
+    flex-wrap: nowrap;
+    padding: 0 10px;
+    font-size: 16px;
+    border-left: 1px solid #aaa;
+}
+.Categorias a:hover {
+    color: #fff;
+}
+
+

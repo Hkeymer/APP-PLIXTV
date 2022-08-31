@@ -1,0 +1,101 @@
+
+ .conten{
+    display: flex;
+    padding: 0;
+  }
+
+  .title{
+    padding: 0;
+    margin: 0 70px;
+    color: #fff;
+    margin-bottom: 1.2rem;
+    font-size: 20px;
+ }
+ .Slider{
+   padding: 0 70px;
+   overflow: hidden;
+   
+  }
+ 
+ .poster{
+    margin: 0;
+    padding: 0;
+    height: 10rem;
+    object-fit: cover;
+    border-radius: 2px;
+    margin-bottom: 5px;
+ }
+ 
+ .imgPlay  {
+   position: relative;
+}
+.imgPlay i {
+   position: absolute;
+   display: none;
+   left: 37%;
+   bottom: 30%;
+   color: #fff;
+}
+
+ .imgPlay:hover { 
+   transition: 450ms;
+   transform: scale(1.1);
+}
+.imgPlay:hover i{
+   display: inline;
+}
+ .card h4{
+   padding: 0;
+   margin: 0;
+   font-weight: normal;
+   padding-left: 5px;
+   margin-bottom: 3rem;
+ }
+ 
+ 
+ .FcNext{
+    position: absolute;
+    display: flex;
+    right:5px;
+    font-size: 1.1rem;
+    border: none;
+    padding: 25px 10px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    background-color: transparent;
+    color: cadetblue;
+    cursor: pointer;
+ }
+ 
+ .FcPrevious{
+    display: flex;
+    position: absolute;
+    left: 0px;
+    font-size: 1.1rem;
+     border: none;
+     padding: 25px 10px;
+     border-bottom-right-radius: 50px;
+     border-top-right-radius: 50px;
+     background-color: transparent;
+     color: cadetblue;
+     cursor: pointer;
+  }
+ 
+ /* .conten:hover .FcNext{
+    color: #aaa;
+  } 
+    
+  .conten:hover .FcPrevious{
+    color: #aaa;
+  }  */
+
+  @media screen and (max-width:655px){
+   .Slider{
+       padding: 0 50px;
+   }  
+
+   .title {
+      margin: 0 50px;
+   }
+ 
+}

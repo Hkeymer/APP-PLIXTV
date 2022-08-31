@@ -1,0 +1,20 @@
+.Plans{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+   margin: auto;
+   
+}
+
+.Plans button:hover {
+    opacity: 0.8;
+    
+}
+
+
+.Plans h3 {
+    font-size: 16px;
+    margin-bottom: 30px;
+}

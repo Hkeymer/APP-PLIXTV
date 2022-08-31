@@ -1,0 +1,22 @@
+.Play{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 50px;
+    padding: 0;
+}
+
+.Play h1  {
+    display: flex;
+    padding: 0;
+    font-size: 20px;
+    margin: 100px 0;
+    margin-bottom: 50px;
+    color: #aaa;
+}
+
+.Play i {
+   display: flex;
+   color: #FFB200;
+}
+

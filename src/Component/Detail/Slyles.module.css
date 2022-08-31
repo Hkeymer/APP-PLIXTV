@@ -1,0 +1,195 @@
+.Banner{ 
+    position: relative;
+    object-fit: contain;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    font-size: 1em;
+    display: flex;
+    min-height: 20.56em;
+    flex-direction: column;
+    gap: 50px;
+    padding: 0 70px;
+    margin: 0;
+}
+
+.poster{
+    height: 15rem;
+    min-width: 35rem;
+    object-fit: cover;
+    z-index: 99;
+    border-radius: 2px;
+    background: antiquewhite;
+    margin-bottom: 1.25rem;
+}
+
+.secion2{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+.secion2 h1{
+    margin: 0;
+    padding: 0;
+    font-size: 2.5em;
+    margin-bottom: 0.7em;
+}
+
+.idiomas{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1em;
+    z-index: 99;
+    width: 50%;
+}
+.idiomas h4{
+    margin: 0 10px ;
+    padding: 0;
+    font-weight: normal;
+}
+.genres{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1rem;
+    z-index: 99;
+}
+.genres h4 {
+    display: flex;
+    font-weight: normal;
+    font-size:0.8em ;
+    margin:0;
+    border-radius: 2px;
+    margin-right: 10px;
+    padding: 0.3em 1em;
+    background: cadetblue;
+    color: #000;
+}
+.Descripcion{
+    font-weight: normal;
+    font-size:1em ;
+    line-height: 1.75em;
+    max-width: 50%;
+    margin: 0;
+    margin-bottom: 1em;
+    z-index: 99;
+}
+
+.botones{
+   z-index: 99;
+}
+
+.button{
+   background-color: transparent;
+   border: 2px solid #fff;
+   color: #fff; 
+   border-radius:5px;
+   padding: 0.65em 2em;
+   cursor: pointer;
+   transform: .3s ease all;
+   font-size: 1.1em;
+   margin-right:20px ;
+   margin-bottom: 10px;
+}
+
+.button2{
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff; 
+    border-radius:5px;
+    padding: 0.65em 1em;
+    cursor: pointer;
+    transform: .3s ease all;
+    font-size: 1.1em;
+    margin-right:20px ;
+    margin-bottom: 10px;
+ }
+.contenbotondiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin: 0;
+    z-index: 99;
+}
+ i {
+    padding: 0;
+    margin: 0;
+    margin-right: 0.4rem;  
+}
+
+.buttonfavo:hover {
+    background: #fff;
+    color: #111;
+    border: 2px solid #fff;  
+}
+
+
+
+.button:hover{
+    background: #fff;
+    color: #111;
+    border: 2px solid #fff;
+}
+
+  
+.degradado{
+    position: absolute;
+    top: 30vh;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 90;
+    background-image: linear-gradient(180deg,transparent,rgba(37,37,37,0.61),#111);
+}
+
+.button:hover{
+    background-color: #fff;
+    color: #111;
+}
+
+
+
+@media screen and (max-width:940px){
+    .Banner{
+        flex-direction: column;
+    }
+    .poster{
+        width: 100%;
+        height: auto;
+    }
+    .Descripcion{
+        max-width: 100%;
+    }
+    .contenbotondiv{
+        justify-content: start;
+        margin-bottom: 10px;
+    }
+   
+}
+
+@media screen and (max-width:655px){
+    .Banner{
+        padding: 0 50px;
+    }  
+  
+}
+
+
+
+
+@media screen and (max-width:551px){
+    .Banner{
+        font-size: 10px;
+    }
+    .Descripcion{
+        max-width: 100%;
+    }
+    }
+  
+
+
+ 

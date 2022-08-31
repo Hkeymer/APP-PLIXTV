@@ -1,0 +1,142 @@
+.Grid{
+    display:  flex;
+    flex-direction: column;
+    padding: 40px 70px;
+    margin: 0;
+    border-top: 1px solid #222;
+}
+.contenLink{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+h3{
+    text-align: center;
+    color: #aaa;
+   font-weight: normal;
+}
+
+.card{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  background-color: #111;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.card:hover {
+    background-color: #222;
+}
+
+.card button {
+    display: flex;
+    align-items: flex-start;
+    background: transparent;
+    border: none;
+}
+.card button h3 {
+    display: flex;
+    align-items: center;
+    color:cadetblue ;
+    margin-top: 15px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+i{
+    margin-left: 0.5em;
+}
+.card button h3:hover{
+    color: red;
+}
+.Descripcion{
+    color: #aaa;
+    width: 70%;
+    font-weight: normal;
+}
+.Descripcion:hover {
+  color: aliceblue;
+}
+.imgPlay{
+    position: relative;
+    margin: 0;
+    padding: 0; 
+ }
+.poster{
+    height: 10.7em;
+    width: auto;
+    object-fit: cover;
+    z-index: 99;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.Play {
+    position: absolute; 
+    display: none;
+    left: 40.25%;
+    bottom: 30.5%; 
+    color: #fff;
+}
+
+.imgPlay:hover i{
+  display: inline;
+}
+
+
+.title{
+  display: inline;
+  padding: 2px  0;
+  color: #fff;
+  margin: 5px 0;
+  font-size: 1.25em;
+  font-weight: normal;
+
+}
+
+.title:hover{
+  border-bottom: 2px solid #aaaa;
+}
+
+
+@media screen and (max-width:1200px){
+    
+    .Descripcion{
+       width: 90%;
+    }
+    }
+
+
+    @media screen and (max-width:970px){
+    
+        .Descripcion{
+           font-size: 14px;
+         }
+        }
+
+
+
+    @media screen and (max-width:855px){
+         .Grid{
+            padding: 40px 50px;
+         }
+        .contenLink{
+            flex-direction: column;
+        }
+        .card{
+            flex-direction: column;
+        }
+        .imgPlay {
+            height: auto;
+        }
+        .poster{
+            height: auto;
+            width: 100%;
+        }
+        .Descripcion{
+            width: 100%;
+         }
+        }

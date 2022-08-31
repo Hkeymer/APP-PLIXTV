@@ -1,0 +1,97 @@
+
+.conten{
+    padding: 0 70px;
+    margin: 0;
+}
+
+.title{
+    margin: 10px;
+    margin-bottom: 40px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+.Grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,18.2rem);
+    padding: 0;
+    gap: 10px;
+    margin: 0;
+    justify-content: center;
+ }
+
+ .Grid h4{
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+  padding-left: 5px;
+  margin-bottom: 4rem;
+ }
+
+.poster{
+    height: 10rem;
+    width: auto;
+    object-fit: cover;
+    z-index: 99;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+.imgPlay  {
+    position: relative;
+ }
+ .imgPlay i {
+    position: absolute;
+    display: none;
+    left: 37%;
+    bottom: 30%;
+    color: #fff;
+ }
+ 
+  .imgPlay:hover { 
+    transition: 450ms;
+    transform: scale(1.1);
+ }
+ .imgPlay:hover i{
+    display: inline;
+ }
+ 
+ @media screen and (max-width:1024px){
+    .Grid{
+        grid-template-columns: repeat(auto-fill,18em);
+    }
+    .poster{
+        height: 10em; 
+    }
+}
+
+@media screen and (max-width:717px){
+    .conten{
+        padding: 0 50px;
+    }
+    .Grid{
+        grid-template-columns: repeat(auto-fill,100%);
+    }
+    .poster{
+        height: auto;
+        width: 100%;
+    }
+    .Grid h4{
+        font-size: 12px;
+        margin-bottom: 2 0px;
+      }
+
+    }
+
+    @media screen and (max-width:655px){
+        .conten{
+            padding: 0 50px;
+        }  
+       .title{
+        font-size: 14px;
+       }
+    }

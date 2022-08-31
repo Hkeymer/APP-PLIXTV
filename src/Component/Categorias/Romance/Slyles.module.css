@@ -1,0 +1,63 @@
+
+.card:hover { 
+   transition: 500ms;
+   transform: scale(1.2);
+   color: #fff;
+   /* background-color: rgba(0, 0, 0,0.5); */
+   /* opacity: 0.5; */
+}
+.conter{
+   display:flex ;
+   flex-direction: row;
+   justify-content: space-between;
+   background-color: #000;
+   /* text-align: center; */
+   color: #aaa;
+   padding: 10px 0;
+  
+}
+
+.conter h1 {
+   padding: 0;
+   margin: 0;
+   margin: 0 50px;
+   /* text-align: center; */
+}
+.conter p{
+   font-size: 1rem;
+   padding: 0;
+   margin: 10px 0;
+}
+
+.poster{
+   position: relative;
+   text-align: center;
+   /* object-fit: fill; */
+   /* color: #aaa; */
+   margin-bottom: 7px;
+   padding:0;
+   width: 195;
+   height: 200;  
+   border-radius: 10px;
+}
+
+.title{
+   padding: 0;
+   margin: 0;
+   font-size: 1rem;
+   color: #fff;
+   text-align: center;
+   /* margin-bottom: 20px; */
+}
+/* .card{
+  margin-top: 20px; 
+} */
+.popularity{
+   position: absolute;
+   color: #fff;
+   bottom: 10px;
+   right: 5px;
+   padding: 0;
+   margin: 0;
+   font-size: 0.8rem;
+}

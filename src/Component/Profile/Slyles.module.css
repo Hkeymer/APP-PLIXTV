@@ -1,0 +1,40 @@
+.Profile{
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  padding: 0;
+  width: 700px ;
+  text-align: center;
+  
+}
+ 
+.Profile h2 {
+  margin: 0;
+  padding: 20px 0;
+}
+
+.Email {
+ color: #fff;
+ font-size: 16px;
+ background-color: gray;
+ padding: 10px;
+}
+
+.detalles h4 {
+  text-align: start;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #aaa;
+  font-size: 20px;
+}
+.Button{
+   margin-top: 15px;
+}
+.Button:hover  {
+ background-color: rgb(199, 80, 80);
+} 
+
+@media screen and (max-width:740px){
+ .Profile{
+  width: 90%;
+ }
+}
