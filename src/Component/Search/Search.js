@@ -1,7 +1,5 @@
-import React from 'react';
-import styles from "./Slyles.module.css";
+import React,{useState} from 'react';
 import{ useSelector} from "react-redux";
-import Spiner from "../Spinner/Spiner"
 import Header from '../Header/Header';
 import Grid from '../Grid/Grid';
 
@@ -12,14 +10,15 @@ import Grid from '../Grid/Grid';
   
  const movies = useSelector((state) => state.contenSlice.Search)
 
- 
+  
+
  return (
-    <div className={styles.conterSearch}>
+    <div>
       <Header/>
-      { movies.length === 0 ?(<Spiner/>):
+      { movies.length === 0 ?null:
         (<Grid moviesCard={movies} />
         )} 
-        <h3>No hay mas datos</h3>
+        <h3 style={{margin:"30px 0"}}>No hay mas datos</h3>
     </div>
   )
 }

@@ -8,7 +8,7 @@ export const contenSlice = createSlice({
   initialState: {
     Search: [],
     addFovorite:[],
-    Const: 0
+    Coste: 0
   },
   reducers: {
     setSearch:(state, action) => {
@@ -21,7 +21,7 @@ export const contenSlice = createSlice({
    state.addFovorite = state.addFovorite.filter(e => e.id !== action.payload);
 },
 setCoste:(state, action) => {
-  state.Const = action.payload
+  state.Coste = action.payload
 },
   
  } 
@@ -34,9 +34,7 @@ export const getSerach = (searchTex) => async (dispatch) => {
      axios
      .get("https://api.themoviedb.org/3/"+ requests.fetchSearch + searchTex)
      .then((rest)=>{
-      dispatch(rest.data.results.length > 0 ? setSearch(rest.data.results) : null
-         
-      )
+      dispatch(setSearch(rest.data.results))
          })
       .catch((error)=>console.error(error))    
 };
