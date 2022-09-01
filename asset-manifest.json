@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/App%20PlixTv/static/css/main.4399a4c8.css",
-    "main.js": "/App%20PlixTv/static/js/main.fa7951e5.js",
-    "static/js/787.28cb0dcd.chunk.js": "/App%20PlixTv/static/js/787.28cb0dcd.chunk.js",
-    "static/media/slick.svg": "/App%20PlixTv/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/App%20PlixTv/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/App%20PlixTv/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/App%20PlixTv/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/App%20PlixTv/index.html",
-    "main.4399a4c8.css.map": "/App%20PlixTv/static/css/main.4399a4c8.css.map",
-    "main.fa7951e5.js.map": "/App%20PlixTv/static/js/main.fa7951e5.js.map",
-    "787.28cb0dcd.chunk.js.map": "/App%20PlixTv/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/APP-PLIXTV/static/css/main.1fbb0872.css",
+    "main.js": "/APP-PLIXTV/static/js/main.4cc94245.js",
+    "static/js/787.28cb0dcd.chunk.js": "/APP-PLIXTV/static/js/787.28cb0dcd.chunk.js",
+    "static/media/slick.svg": "/APP-PLIXTV/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/APP-PLIXTV/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/APP-PLIXTV/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/APP-PLIXTV/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/APP-PLIXTV/index.html",
+    "main.1fbb0872.css.map": "/APP-PLIXTV/static/css/main.1fbb0872.css.map",
+    "main.4cc94245.js.map": "/APP-PLIXTV/static/js/main.4cc94245.js.map",
+    "787.28cb0dcd.chunk.js.map": "/APP-PLIXTV/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4399a4c8.css",
-    "static/js/main.fa7951e5.js"
+    "static/css/main.1fbb0872.css",
+    "static/js/main.4cc94245.js"
   ]
 }
