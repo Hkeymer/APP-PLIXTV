@@ -1,7 +1,8 @@
-import React,{useState} from 'react';
+import React from 'react';
 import{ useSelector} from "react-redux";
 import Header from '../Header/Header';
 import Grid from '../Grid/Grid';
+import Spiner from "../Spinner/Spiner";
 
 
  const Base_Url= "https://image.tmdb.org/t/p/original"?
@@ -15,10 +16,10 @@ import Grid from '../Grid/Grid';
  return (
     <div>
       <Header/>
-      { movies.length === 0 ?null:
+      { movies.length === 0 ?<Spiner/>:
         (<Grid moviesCard={movies} />
         )} 
-        <h3 style={{margin:"30px 0"}}>No hay mas datos</h3>
+        <h3>No hay mas datos</h3>
     </div>
   )
 }
