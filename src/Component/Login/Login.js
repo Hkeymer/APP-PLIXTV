@@ -59,7 +59,7 @@ const Login = () => {
             <input type={"email"} placeholder='Email' id='email' ></input>
             <div className={styles.divPassword} >
               <input type={mostrar?'Password':null} placeholder='Password' id='password' ></input>
-              <button onClick={()=> setMostrar(!mostrar)}> { mostrar? <MdOutlineVisibility/>:<MdOutlineVisibilityOff/> }</button>
+              <button onClick={()=> setMostrar(!mostrar)}> { mostrar? <MdOutlineVisibility/>:<MdOutlineVisibilityOff/>}</button>
             </div>
             <Button className={styles.Button} width="100%" > { register? "Iniciar sesion":"Registrarse" }</Button>
             {/* <button className={styles.Button} onClick={()=> signInWithRedirect(auth,Google)} >Acceder con Google</button> */}
